@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   
   get 'pages/home' => 'pages#home'
   get 'pages/about' => 'pages#about'
+  
+  resources :articles
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
